@@ -1,0 +1,168 @@
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+
+}
+/*header start*/
+header{
+	
+	padding: 20px 0;
+
+}
+.container{
+	width: 90%;
+
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 10%;
+	float: left;
+	
+	margin-top: 7px;
+
+}
+.logo img{
+      width: 100%;
+}
+.menu{
+	width: 75%;
+	float: right;
+
+
+}
+.menu ul{
+	float: right;
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	
+	font-weight: 400 ;
+	color: #626262 ;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 52px;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	
+	border-bottom: 1px solid #626262;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+
+.banner{}
+.banner-content{}
+.banner-content img{
+	width: 100%;
+}
+
+
+/*banner end*/
+/*article start*/
+
+.container-two{
+	width: 80%;
+
+	margin: 0 auto;
+}
+.article{
+
+}
+.article-blog{
+	padding: 90px 0;
+
+}
+.article-blog p{
+	
+	font-weight: 400;
+	line-height: 1.5;
+	margin-top: 40px;
+
+}
+.article-blog h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight:300; 
+	text-transform: uppercase;
+
+}
+.article-blog h3{
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 25px;
+	color: black;
+}
+.article-blog h4{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight:300; 
+	text-transform: uppercase;
+	margin-top: 42px;
+
+}
+
+/*article start*/
+/*newsletter start*/
+.newsletter{
+	padding: 50px 0;
+	background-color: #f0f0f0;
+	
+}
+.container4{
+	width: 60%;
+	
+	margin: 0 auto;
+	
+}
+.signup{
+	text-align: center;
+
+}
+.signup h1{
+
+	font-size: 30px;
+	margin-bottom: 70px;
+	font-weight: 400;
+	color: black;
+}
+.for_form{
+	width: 380px;
+	margin: 0 auto;
+	position: relative;
+}
+.for_form input{
+	border-style: none;
+	background:transparent;
+	border-bottom: 1px solid black;
+	width: 360px;
+	font-size: 18px;
+	padding: 10px 10px 10px 10px;
+
+}
+.for_form button{
+	border-style: none;
+	background:transparent;
+	position: absolute;
+	top: 8px;
+
+}
+
+/*newsletter end*/
+
